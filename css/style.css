@@ -11,22 +11,27 @@
     margin: 10px 10px;
 }
 
+body {
+    background-color: lightgreen;
+}
 .container {
     width: 70vw;
-    height: 500px;
+    height: 800px;
     margin: 0 auto;
-    background-color: white;
 }
 
 .container_header {
     width: 100%;
-    height: 50px;
-    background-color: lightgreen;
+    height: 350px;
+    background-image: url("../img/forests.jpg");
+    background-size: cover;
+    position: relative;
+    border: 5px solid white;
 }
 
 .aside {
     width: 25%;
-    height: 250px;
+    height: 800px;
     background-color: lightpink;
     float: left;
     margin-top: 10px;
@@ -34,21 +39,21 @@
 
 .bside {
     width: 25%;
-    height: 250px;
+    height: 800px;
     background-color: lightpink;
     float: right;
     margin-top: 10px;
 }
 
 .container_main {
-    height: 400px;
+    height: 800px;
     background-color:   violet;
     margin-top: 10px;
 }
 
 .container_footer {
     width: 100%;
-    height: 50px;
+    height: 150px;
     background-color: lightblue;
 }
 
@@ -56,4 +61,32 @@ main {
     padding: 0px 10px;
     float: left;
     width: 50%;
+}
+
+.natural {
+    width: 30%;
+    height: 80px;
+    border: 5px solid white;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    color: white;
+    transform: translate(-50%,-50%);
+    font-size: 50px;
+}
+
+.subtitle {
+    position: absolute;
+    left: 50%;
+    bottom: 70px;
+    color: white;
+    transform: translate(-50%,-50%);
+    font-size: 25px;
 }
